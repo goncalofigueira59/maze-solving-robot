@@ -3,8 +3,8 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Categoria-Projeto%20Académico-blue" alt="Categoria: Projeto Académico">
   <img src="https://img.shields.io/badge/Microcontrolador-PIC18F2550-6C4675?logo=microchip-technology" alt="Microcontrolador: PIC18F2550">
-  <img src="https://img.shields.io/badge/Competição-MicroRato-orange" alt="Competição: MicroRato">
   <img src="https://img.shields.io/badge/Software-Proteus-1A548B?logo=proteus-design-suite" alt="Software: Proteus">
+  <img src="https://img.shields.io/badge/Competição-MicroRato-orange" alt="Competição: MicroRato">
 </p>
 
 > [Projeto Académico] Robô autónomo (MegaBot ) para navegação em labirintos, desenvolvido para a competição MicroRato (modalidade Pathfinder), e para a UC de Projeto Temático em Eletrónica e Instrumentação. Utiliza um PIC18F2550, sensores TCRT5000 e um algoritmo "Left Hand Rule".
