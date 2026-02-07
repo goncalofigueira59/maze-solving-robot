@@ -34,6 +34,8 @@ Este projeto consistiu no desenvolvimento de um robô completamente autónomo pa
 
 O objetivo inicial era desenvolver um robô para a modalidade **Pathfinder** da competição MicroRato, capaz de aprender o trajeto numa primeira passagem (usando o algoritmo **"Left Hand Rule"**) e otimizá-lo numa segunda volta. No entanto, devido a desafios práticos de hardware e software, a solução final evoluiu para um **robô seguidor de linha (Line Follower)** funcional e estável, que representa uma base sólida para melhorias futuras.
 
+---
+
 ### 2. Enquadramento e Objetivos
 
 Desenvolvido no âmbito do **Projeto Temático em Eletrónica e Instrumentação** (Licenciatura em Eletrónica e Mecânica Industrial, ESTGA-UA), este trabalho reuniu conhecimentos das disciplinas de Instrumentação e Controlo, Eletrónica e Microcontroladores e Sistemas Digitais.
@@ -41,6 +43,8 @@ Desenvolvido no âmbito do **Projeto Temático em Eletrónica e Instrumentação
 - **Modalidade:** Pathfinder (Concurso MicroRato)
 - **Robô:** Dimensões de 20x20x30 cm, conforme regulamento.
 - **Labirinto:** Pista de simulação com linhas pretas de 34 mm de largura e 25 cm entre interseções.
+
+---
 
 ### 3. Arquitetura de Hardware
 
@@ -66,6 +70,8 @@ O circuito foi projetado de forma modular no software **Proteus**, garantindo qu
 - **Atuadores:**
   - 2x Motores DC de 12V (37D Metal Gearmotor) com redução 50:1.
   - **Driver Ponte-H L298N** para controlar o sentido e a velocidade (via PWM) dos motores.
+
+---
 
 ### 4. Arquitetura de Software e Algoritmos
 
@@ -98,6 +104,8 @@ A versão final e funcional do robô implementa um seguidor de linha robusto, fo
   4.  **`else if ((SENSOR_2) && (SENSOR_5))`**: Se ambos os sensores estão fora da linha (leem branco), o robô perdeu o trajeto. Ação: **para** por segurança.
 - **Debugging:** O código envia continuamente o estado dos 7 sensores via comunicação série, uma ferramenta crucial que permitiu diagnosticar e calibrar o comportamento do robô em tempo real.
 
+---
+
 ### 5. Ensaios, Resultados e Desafios Superados
 
 - **Desafios de Hardware:**
@@ -106,6 +114,8 @@ A versão final e funcional do robô implementa um seguidor de linha robusto, fo
 - **Desafios de Software e Sensores:**
   - **Reflexão da Pista:** A fita preta utilizada inicialmente refletia demasiada luz infravermelha, causando leituras incorretas. A solução foi **lixar a superfície da fita** para a tornar mais fosca, melhorando drasticamente a precisão dos sensores.
 - **Expectativa vs. Realidade:** A complexidade da integração hardware-software e os desafios de diagnóstico limitaram a implementação do modo *Pathfinder*. A equipa reavaliou os objetivos e focou-se em entregar um protótipo *Line Follower* estável e funcional, o que representa um progresso significativo e uma base sólida para o futuro.
+
+---
 
 ### 6. Conclusão e Aprendizagens
 
@@ -117,10 +127,14 @@ Apesar de o objetivo final ter sido modificado, o projeto foi uma experiência d
 - Finalização do algoritmo *Pathfinder* com memorização e otimização de trajetos.
 - Conexão e programação dos botões de controlo para uma operação mais autónoma.
 
+---
+
 ### 7. Ficheiros do Projeto
 
 - **Código Fonte:** Os códigos para o "Maze Solver" (conceito inicial) e "Line Follower" (implementação final) estão disponíveis na pasta `src/`.
 - **Documentação e Simulação:** O esquema elétrico do Proteus, os modelos 3D do SolidEdge e outros anexos estão disponíveis na pasta `project-files/` ou em `design/`.
+
+---
 
 ### 8. Licença
 
