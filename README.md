@@ -53,7 +53,7 @@ O chassis e as rodas foram desenhados em **SolidEdge** e impressos em 3D com fil
 #### 3.2. Esquema Elétrico e Módulos Eletrónicos
 O circuito foi projetado de forma modular no software **Proteus**, garantindo que cada subsistema pudesse ser testado individualmente.
 
-![Esquema Elétrico Geral](assets/esquema-eletrico-robo.png)
+![Esquema Elétrico Geral]([assets/esquema-eletrico-robo.png](https://github.com/goncalofigueira59/maze-solving-robot/blob/main/project-files/Esquema%20el%C3%A9trico%20.pdf))
 
 - **Microcontrolador:** Placa "StartUSB for PIC" com o **PIC18F2550**, escolhido pela familiaridade e capacidade de controlo PWM.
 - **Alimentação:**
@@ -120,7 +120,7 @@ Apesar de o objetivo final ter sido modificado, o projeto foi uma experiência d
 ### 7. Ficheiros do Projeto
 
 - **Código Fonte:** Os códigos para o "Maze Solver" (conceito inicial) e "Line Follower" (implementação final) estão disponíveis na pasta `src/`.
-- **Documentação e Simulação:** O relatório completo em PDF, o esquema elétrico do Proteus, os modelos 3D do SolidEdge e outros anexos estão disponíveis na pasta `project-files/`.
+- **Documentação e Simulação:** O esquema elétrico do Proteus, os modelos 3D do SolidEdge e outros anexos estão disponíveis na pasta `project-files/` ou em `design/`.
 
 ### 8. Licença
 
