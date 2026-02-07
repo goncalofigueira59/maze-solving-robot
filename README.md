@@ -53,7 +53,8 @@ O chassis e as rodas foram desenhados em **SolidEdge** e impressos em 3D com fil
 #### 3.2. Esquema Elétrico e Módulos Eletrónicos
 O circuito foi projetado de forma modular no software **Proteus**, garantindo que cada subsistema pudesse ser testado individualmente.
 
-![Esquema Elétrico Geral]([assets/esquema-eletrico-robo.png](https://github.com/goncalofigueira59/maze-solving-robot/blob/main/project-files/Esquema%20el%C3%A9trico%20.pdf))
+![Esquema Elétrico Geral](project-files/Esquema-elétrico.pdf
+)
 
 - **Microcontrolador:** Placa "StartUSB for PIC" com o **PIC18F2550**, escolhido pela familiaridade e capacidade de controlo PWM.
 - **Alimentação:**
